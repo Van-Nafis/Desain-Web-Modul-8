@@ -1,0 +1,43 @@
+html{
+    background-color: aliceblue;
+    background-size: cover;
+}
+#home {
+    text-align: center;
+    font-size: 40;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.button{
+    display: block;
+    background-color: black;
+    color: aliceblue;
+    padding: 12px 12px;
+    text-align: center;
+    display: inline-block;
+    font-size: 25;
+}
+#next{
+    visibility: hidden;
+    text-align: center;
+    font-size: 40;
+    font-family: Arial, Helvetica, sans-serif;
+}
+a{
+    text-decoration: none;
+    display: block;
+    text-decoration-color: black;
+}
+
+.box{
+    width: 22%;
+    margin: 0 2% 0 0;
+    height: 200px;
+    border: 2px solid rgb(0, 0, 0);
+    float: left;
+    text-align: center;
+}
+
+form{
+    text-align: left;
+    font-size: 16;
+}

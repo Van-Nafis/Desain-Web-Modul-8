@@ -1,0 +1,44 @@
+<html>
+    <head>
+        <title>Rumus Bidang Datar</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="rumus.js"></script>
+    </head>
+    <body>
+        <div id="home">
+            Selamat Datang, Rumus Luas Bidang Datar Di Sini Gratis Digunakan<br><br>
+            <div class="box">
+                Persegi
+                <form name="persegi">
+                    <pre>
+panjang : <input type="text" name="panjang"><!--dibuat menjorok ke kiri, efek dari tag pre-->
+lebar : <input type="text" name="lebar"><!--dibuat menjorok ke kiri, efek dari tag pre-->
+                    </pre>
+                    <input type="button" value="Hitung" onclick="luas()">
+                    <input type="reset" value="reset">
+                </form>   
+            </div>
+            <div class="box">
+                Persegi Panjang
+                <form name="persegi">
+                    <pre>
+panjang : <input type="text" name="panjang"><!--dibuat menjorok ke kiri, efek dari tag pre-->
+lebar : <input type="text" name="lebar"><!--dibuat menjorok ke kiri, efek dari tag pre-->
+                    </pre>
+                    <input type="button" value="Hitung" onclick="luasPP()">
+                    <input type="reset" value="reset">
+                </form>
+            </div>
+            <div class="box">
+                Segitiga
+                <form name="segitiga">
+                    <pre>
+Alas : <input type="text" name="alas"><!--dibuat menjorok ke kiri, efek dari tag pre-->
+Tinggi : <input type="text" name="tinggi"><!--dibuat menjorok ke kiri, efek dari tag pre-->
+                    </pre>
+                    <input type="button" value="Hitung" onclick="luas()">
+                    <input type="reset" value="reset">                                
+            </div>
+        </div>
+    </body>
+</html>
